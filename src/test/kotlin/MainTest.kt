@@ -24,7 +24,7 @@ internal class MainTest {
                             lastLine.contains("\uD83D\uDC06") &&
                             lastLine.contains("кошеня №3", ignoreCase = true) &&
                             lastLine.contains("віком 6 років", ignoreCase = true) &&
-                            lastLine.contains("вагою 8 ", ignoreCase = true),
+                            lastLine.contains("вагою 8.2 ", ignoreCase = true),
                     "Щось не так з третім кошеням"
                 )
             }
