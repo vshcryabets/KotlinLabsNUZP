@@ -19,7 +19,7 @@ internal class MainTest {
     }
 
     @Test
-    fun globalTest() {
+    fun task1Test() {
         when (BuildConfig.LAB_NUMBER) {
             1 -> {
                 val buffer = StringBuilder()
